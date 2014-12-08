@@ -1,0 +1,13 @@
+Package: webpagetestr
+Title: Uses WebPagetest to gather performance metrics for web pages
+Version: 0.1
+Authors@R: as.person(c(
+    "Andy Davies <andy@andydavies.me> [aut, cre]"
+  ))
+Description: Tests web pages using the WebPagetest API and gathers performance metrics 
+    about the pages tested. To use you'll need either access to a private instance of WebPagetest,
+    or an API key for the public instance.
+    For more information on WebPagetest see http://webpagetest.org
+Depends: R (>= 3.0.2)
+License: MIT
+LazyData: true
